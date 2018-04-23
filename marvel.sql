@@ -151,9 +151,6 @@ INSERT INTO attendances (person_id, movie_id) VALUES (1, 1);
 INSERT INTO attendances (person_id, movie_id) VALUES (21, 4);
 
 
-
-INSERT INTO people (name) VALUES ('John Harper');
-
-UPDATE people SET name = 'Jeff 4' WHERE name = 'Andrew Laughlin';
-UPDATE people SET name = 'Jeff 5' WHERE name = 'Andrew Smith';
-SELECT * FROM people;
+INSERT INTO movies (title, year, show_time) VALUES ('Guardians of the Galazy 2', 2016, '20.55');
+UPDATE movies SET show_time = 21.30 WHERE title = 'Guardians of the Galaxy';
+SELECT * FROM movies;

@@ -229,7 +229,7 @@ SELECT * FROM people;
 
 9. The cinema has just heard that they will be holding an exclusive midnight showing of 'Guardians of the Galaxy 2'!! Create a new entry in the 'movies' table to reflect this.
 
-INSERT INTO movies (title, year, show_time) VALUES ('Guardians of the Galazy 2', 2016, '20.55');
+INSERT INTO movies (title, year, show_time) VALUES ('Guardians of the Galaxy 2', 2016, '20.55');
 SELECT * FROM movies;
 
  id |                title                | year | show_time
@@ -274,7 +274,7 @@ id |                title                | year | show_time
  13 | Ant-Man                             | 2015 | 13:50
  14 | Captain America: Civil War          | 2016 | 21:30
  15 | Doctor Strange                      | 2016 | 17:55
- 16 | Guardians of the Galazy 2           | 2016 | 20.55
+ 16 | Guardians of the Galaxy 2           | 2016 | 20.55
  11 | Guardians of the Galaxy             | 2014 | 21.30
 (16 rows)
 
